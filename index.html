@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+
+    <title>Grape</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="/img/favicon.ico">
+
+    <link rel="stylesheet" href="/css/application.css">
+    <link rel="stylesheet" href="/css/layers/project/bunch.css">
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="/js/canvas.js"></script>
+    <script src="/js/map.js"></script>
+    
+  </head>
+
+  <body>
+
+    <div class="logo"><a href="/"><img src="/img/logo.png" alt="Grape" width="158" height="51"></a></div>
+    <div class="app-store"><a href="https://itunes.apple.com/us/app/grape-app/id602618538?mt=8"><img src="/img/app-store.png" alt="App Store" width="152" height="45"></a></div>
+
+    <div class="bunch">
+
+      <div class="bunch-user">
+        <div class="bunch-user_name">Mr. Duderino</div>
+        <div class="bunch-user_action">created <span>Bunch</span></div>
+        <div class="bunch-user_photo"><img src="/img/user.png" alt="" width="110" height="110"></div>
+        <div class="bunch-user_subject">Coffee Break</div>
+      </div>
+
+      <div id="map_canvas" class="bunch-map"></div>
+
+      <div class="bunch-checkin">
+        <div class="bunch-checkin_place">Starbucks</div>
+        <div class="bunch-checkin_address">165 Broadwae, New York, NY</div>
+        <div class="bunch-checkin_datetime">Today, 05:30 PM</div>
+      </div>
+
+    </div>
+
+    <div id="canvas"><img id="marker" src="/img/marker.png" alt=""></div>
+
+    <script type="text/javascript">
+
+      window.onload = function() {
+
+        var 
+            count = 14,
+            point = [41.87, -87.66];
+
+        var marker = new Marker();
+        images = marker.initialize(count);
+
+        var map = new Map();
+        map.initialize(point, images);
+
+      };      
+
+    </script>
+
+  </body>
+
+</html>

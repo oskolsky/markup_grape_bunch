@@ -1,0 +1,103 @@
+/* CONTENT STYLES
+---------------------------------------------------------------------------------------------------- */
+.cnt {font-size: 1.6rem;}
+
+.cnt > blockquote,
+.cnt > code,
+.cnt > dl,
+.cnt > ol,
+.cnt > ul,
+.cnt > p,
+.cnt > table {margin-bottom: 3rem;}
+
+.cnt li p {margin-top: 2rem;}
+
+.cnt ul li {
+  list-style-type: disc;
+}
+
+/* Links */
+.cnt a       {color: #06c;}
+.cnt a:hover {color: #000;}
+
+/* Blockquote */
+.cnt > blockquote {
+  padding: 3rem;
+  border: 1px solid #ccc;
+  font-style: italic;
+  font-size: 1.75rem;
+}
+
+/* Code */
+.cnt code {
+  display: block;
+  background: #eee;
+  border: 1px dotted #ccc;
+  font-size: 1.75rem;
+  white-space: pre-wrap;
+}
+
+/* Lists */
+.cnt > dl dt {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+.cnt > dl dd {margin-left: 4.5rem;}
+
+.cnt > ol       {list-style-type: decimal;}
+.cnt > ol ol    {list-style-type: lower-alpha;}
+.cnt > ol ol ol {list-style-type: lower-roman;}
+
+.cnt > ul       {list-style-type: disc;}
+.cnt > ul ul    {list-style-type: circle;}
+.cnt > ul ul ul {list-style-type: square;}
+
+.cnt > ol li,
+.cnt > ul li {margin: 0 0 2rem 4.5rem;}
+
+.cnt > ol li ol,
+.cnt > ol li ul,
+.cnt ul li ul {margin-top: 2rem;}
+
+/* Headers */
+.cnt > h1,
+.cnt > h2,
+.cnt > h3,
+.cnt > h4,
+.cnt > h5,
+.cnt > h6 {margin-bottom: 2rem;}
+
+/* Quote */
+.cnt q {
+  font-style: italic;
+  quotes: "\00ab" "\00bb";
+}
+.cnt q:before {content: open-quote;}
+.cnt q:after  {content: close-quote;}
+
+/* Small */
+.cnt small {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Sup, sub */
+.cnt sub,
+.cnt sup {
+  font-size: 1rem;
+  line-height: 1;
+}
+.cnt sub {vertical-align: text-bottom;}
+.cnt sup {vertical-align: text-top;}
+
+/* Table */
+.cnt table {width: 100%;}
+.cnt table th,
+.cnt table td {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+.cnt table th {
+  background: #eee;
+  text-align: left;
+}
