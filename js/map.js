@@ -12,8 +12,7 @@ var Map = function() {
           zoomControl:       false
       };
     map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-    var 
-        marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
           position: myLatlng,
           map: map,
           icon: images
