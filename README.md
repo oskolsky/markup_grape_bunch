@@ -1,8 +1,9 @@
-Grape Bunch
-========
+# Grape Bunch
 
-Верстка проекта "Grape Bunch"
+Version: 1.0
 
-| Страница                      | Ссылка                                         |
-|-------------------------------|------------------------------------------------|
-| Главная                       | http://grape-bunch.oskolsky.com                |
+Updated: 1/02/2014
+
+## Credits
+
+* @oskolsky — Senior Frontend Developer

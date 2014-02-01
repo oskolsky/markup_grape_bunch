@@ -1,4 +1,4 @@
-@import "/css/vendor/reset.css"  all;
+@import "/css/reset.css"  all;
 
 /* Html
 ---------------------------------------------------------------------------------*/
@@ -12,7 +12,7 @@ html {
 /* Body
 ---------------------------------------------------------------------------------*/
 body {
-  /*background: #fff url(/img/main_bg.jpg) no-repeat;*/
+  background: #fff url(/img/main_bg.jpg) no-repeat;
   background-size: cover;  
   color: #333;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
